@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Know birth Year"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:hint="Enter age year"
+       android:id="@+id/ageEdittex"
+       android:minWidth="200dp"
+       android:layout_marginTop="20dp"
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/calculateBtn"
+        android:text="BirthYear"
+        android:backgroundTint="#00BCD4"
+        android:textColor="@color/black"
+        android:minWidth="200dp"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageText"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:minWidth="200dp"
+        android:text="Text View"
+        android:textSize="22sp"
+        android:gravity="center"
+
+        />
+</LinearLayout>
